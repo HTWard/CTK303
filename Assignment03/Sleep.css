@@ -1,0 +1,75 @@
+#sleepsvg { 
+    width: 500px; 
+    display: block; 
+    margin: 1em auto;
+    transition: transform .25s linear;
+    transform-origin: left top;
+    }
+
+#Sletter {
+    Animation: pulse 1.0s;
+    transform-origin: center;
+}
+
+@keyframes pulse {
+    0%   { transform: scale(1.0);}
+    50% { transform: scale(1.5);}
+    100% { transform: scale(1.0);}
+}
+
+#Lletter {
+    Animation: pulse2 2.0s;
+    transform-origin: center;
+}
+
+@keyframes pulse2 {
+    0% {transform: scale(1.0);}
+    50% {transform: scale(1.0);}
+    75% {transform: scale(1.5);}
+    100% {transform: scale(1.0);}
+}
+
+#E1letter {
+    Animation: pulse3 3.0s;
+    transform-origin: center;
+}
+
+@keyframes pulse3 {
+    0% {transform: scale(1.0);}
+    66.66% {transform: scale(1.0);}
+    83.33% {transform: scale(1.5);}
+    100% {transform: scale(1.0);}
+}
+
+#E2letter {
+    Animation: pulse4 4.0s;
+    transform-origin: center;
+}
+
+@keyframes pulse4 {
+    0% {transform: scale(1.0);}
+    75% {transform: scale(1.0);}
+    87.5% {transform: scale(1.5);}
+    100% {transform: scale(1.0);}
+}
+
+#Pletter {
+    Animation: pulse5 5.0s;
+    transform-origin: center;
+}
+
+@keyframes pulse5 {
+    0% {transform: scale(1.0);}
+    80% {transform: scale(1.0);}
+    90% {transform: scale(1.5);}
+    100% {transform: scale(1.0);}
+}
+
+p {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #8f00b3;
+    font-family: 'Rubik Iso', cursive;
+    font-size: 24px;
+    text-align: center;
+}
