@@ -1,0 +1,29 @@
+  #wrapper {
+    margin: 1em auto;
+    padding: 20px;
+    width: 960px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+h1 {
+  text-align: center;
+  border-bottom: 3px solid #FFD4F6;
+  color: #b514b0;
+  font-family: 'Croissant One', cursive;
+}
+
+p {
+  color: #b514b0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+}
+
+img {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
