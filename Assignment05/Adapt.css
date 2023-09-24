@@ -1,0 +1,38 @@
+/*.+ Base Styling/ Phone Setting +.*/
+
+body {
+    background-color: #fae1f2;
+}
+
+h1 {
+    font-family: 'Croissant One', cursive;
+    text-align: center;
+    color: #cfa3c1;
+}
+
+img {
+    width:75%;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    color: #cfa3c1;
+}
+
+/*.+ Tablet Setting +.*/
+@media all and (min-width: 30rem){
+   img {width: 35%; clear:both; margin:5%;}
+   .floatright {float: right;}
+   .floatleft {float: left;}
+   p {margin:5%;}
+  }   
+
+/*.+ Laptop Setting +.*/
+@media all and (min-width: 50rem){
+    h1 {font-size: 48px;}
+    p {font-size:30px;}
+    img {width:40%;}
+    .cl {clear:left;}
+    .cr {clear: right;}
+  }            
+  
