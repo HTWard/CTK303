@@ -80,12 +80,12 @@ h1 {
 }
 
 h2 {
-    color: #ff9999;
+    color: rgba(255,85,85,1);
     font-family: 'Lobster Two', cursive;
 }
 
 p {
-    color: #ff9999;
+    color: rgba(255,85,85,1);
     font-family: 'Amatic SC', cursive;
     font-size: 28px;
 }
