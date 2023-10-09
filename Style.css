@@ -1,0 +1,104 @@
+/*.+ Basic css +.*/
+body{
+    background-color: #ff9999;
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 20px;
+    width: 960px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+  }
+
+  /*.+ Navigation +.*/
+  nav ul {
+    list-style-type: none; /* none, disc, circle, square */
+    margin:0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+
+  nav li a {
+    display: block;
+    font-family: 'Lobster Two', cursive;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    text-decoration:none;
+    background: linear-gradient(90deg, rgba(255,153,153,1) 0%, rgba(255,85,85,1) 100%);
+  }
+
+  nav li a:hover {
+    border-radius: 10px;
+    font-family: 'Lobster Two', cursive;
+    background: linear-gradient(90deg, rgba(255,85,85,1) 0%, rgba(255,153,153,1) 100%);
+
+    transition: border-radius 1.0s;
+}
+
+  /*.+ Images +.*/
+  #birthdayParty {
+    border: 1px white;
+    width: 300px; 
+    float: right;
+    padding: 20px;
+    margin: 20px;
+}
+
+    #coins {
+        display: block;
+        float: left;
+        padding: 20px;
+        margin: 20px;
+    }
+
+
+/*.+ Text +.*/
+    #lyrics {
+        text-align: center;
+    }
+
+header {
+    text-align: center;
+    background-image: url(Glitter.jpg);
+    background-color: #c4aa02;
+
+}
+
+.title {
+    color: #ffffff;
+}
+
+h1 {
+    color:#ff9999;
+    font-family: 'Lobster Two', cursive;
+}
+
+h2 {
+    color: rgba(255,85,85,1);
+    font-family: 'Lobster Two', cursive;
+}
+
+p {
+    color: rgba(255,85,85,1);
+    font-family: 'Amatic SC', cursive;
+    font-size: 28px;
+}
+
+/*.+ Footer +.*/
+
+footer {
+    background-image: url(PinkParty.jpg);
+    padding: 20px;
+    clear: both;
+    background-color: #ff9eb3;
+}
+
+.foot {
+    color: #ffffff;
+}
